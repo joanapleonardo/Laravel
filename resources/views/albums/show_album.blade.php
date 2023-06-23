@@ -33,9 +33,4 @@
 </div>
 </form>
 
-    {{-- <h1>Aqui podes adicionar users</h1> --}}
-    <div class="container">
-    <a href="{{route('home')}}"><li>Voltar</li></a>
-    </div>
-
 @endsection

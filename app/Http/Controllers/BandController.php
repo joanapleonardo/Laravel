@@ -26,6 +26,7 @@ class BandController extends Controller
     public function all_bands()
     {
         $allBands=DB::table('bands')
+        ->orderBy('name', 'asc')
         ->get();
 
         foreach($allBands as $band){

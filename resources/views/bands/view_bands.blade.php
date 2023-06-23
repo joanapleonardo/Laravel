@@ -23,7 +23,7 @@
     <tbody>
       @foreach ($allBands as $item)
       <tr>
-          <td><img width="30px" height="30px"
+          <td><img width="80px" height="80px"
             src="{{ $item->photo ? asset('storage/' . $item->photo) : asset('images/nophoto.jpg') }}"
             alt=""></td>
           <td>{{$item->name}}</td>

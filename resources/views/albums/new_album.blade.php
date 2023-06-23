@@ -51,6 +51,4 @@
     </form>
 </div>
 
-<a href="{{route('home')}}"><li>Voltar</li></a>
-
 @endsection
